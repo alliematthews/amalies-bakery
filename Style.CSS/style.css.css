@@ -1,0 +1,427 @@
+body {
+  background-color: rgb(250, 225, 229);    
+  margin-left: auto;
+  margin-right: 0
+}
+* {
+  box-sizing: border-box;
+}
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+} */
+
+header {
+  background-color: rgb(250, 225, 229); 
+     
+}
+   
+/* Top Section-Logo */
+  
+.main-menu {
+  display: block;
+  color: #8a2be2;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  padding: 0;
+  margin-top: 2%;
+  float: right;
+  word-spacing: 5px;
+}
+
+/* unvisited link */
+
+a:link {
+  color: black; 
+}
+
+/* visited link */
+
+a:visited {
+  color: lightseagreen;
+}
+ 
+/* mouse over link */
+
+a:hover {
+color: purple;  
+}
+
+
+
+/* selected link */
+
+a:active {
+color: lightpink;
+}
+
+h3, h6 {
+font-weight: normal;
+}
+
+.logo { 
+ display: inline-block;
+
+}
+
+.text-logo {
+  display: inline-block;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 40px;
+}
+
+.text-logo span {
+  font-weight: bold!important;
+}
+
+.text-logo h3, .text-logo h6 {
+  font-family: 'Sacramento', cursive;
+  margin: 0px;
+  color: rgb(245, 26, 128);
+}
+
+.text-logo h6 {
+font-family: 'Oswald', sans-serif;
+margin: 0px;
+color: rgb(245, 26, 128);
+}
+
+.banner-text {
+  height: 1000px;
+  width: 1920px;
+  margin-top: 10%;
+  text-align: center; 
+  color: rgb(105, 93, 75);
+  font-family: 'Oswald', sans-serif;
+  font-size: 43px;
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-text2 {
+  text-align: center;
+  color: rgba(27, 22, 24, 0.548);
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  top: 50%;
+  bottom: -15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  /* Discount Section!*/
+  #discount-section {
+    background-color: rgb(250, 225, 229);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -40px;
+    margin-right: auto;
+    margin-bottom: -50px;
+    margin-left: auto;
+    padding: auto;
+  }
+
+  .discount-box {
+      display: inline-block;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Sacramento', cursive;
+      font-size: 30px;
+      text-align: center;
+      height: 350px;
+      width: 570px;
+      background-color: transparent;
+      color: rgb(241, 121, 167);
+      border: 2px dashed;
+      border-color: darkslategray;
+      position: center;
+      
+      
+    }
+  .newhere-box {
+      display: inline-block;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Sacramento', cursive;
+      font-size: 30px;
+      text-align: center;
+      height: 350px;
+      width: 570px;
+      background-color: transparent;
+      color: rgb(241, 121, 167);
+      border: 2px dashed;
+      border-color: darkslategray;
+      position: center;
+     
+  }
+  .amaliesbakery{
+    font-family: 'Sacramento', cursive;
+  }
+  .discount-text {
+      text-align: center;
+      color: darkslategray;
+      float: center;
+  }
+  .shipping-icon {
+   display: inline-block;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   color: darkslategray;
+   height: 350px;
+   width: 570px;
+   text-align: center;
+   
+  }
+  .return-icon {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: darkslategray;
+  height: 350px;
+  width: 570px;
+  text-align: center;
+  
+  }
+  .quality-icon {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: darkslategray;
+  height: 350px;
+  width: 570px;
+  text-align: center;
+  }
+  
+  /* Premium Quality Section!*/
+#premiumquality {
+  background-image: url('./Images/heartcookiecutter.jpg');
+  opacity: 95%;
+  background-color: rgb(189, 186, 186);
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -7px;
+  margin-right: auto;
+  margin-bottom: -50px;
+  margin-left: auto;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+.progresso-bread {
+ display: inline-flex;
+ flex-wrap: wrap;
+justify-content: space-evenly;
+color: white;
+}
+
+#customertestimonial {
+  background-color: rgb(250, 225, 229);    
+  color:darkslategray;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.blog {
+  background-image: url(./Images/testimonialbackground.jpg);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=SendEmail] {
+  background-color: #d8b483;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=SendEmail]:hover {
+  background-color: #d8b483;
+}
+
+/* Style the container/contact section */
+.messagebox {
+  background-color: rgb(250, 225, 229);  
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  color: darkslategray;
+  text-align: center;
+}
+.contactinfo {
+  align-items: center;
+  background-color: rgb(250, 225, 229);  
+}
+
+.column {
+  align-items: center;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+#address-section {
+  display: inline-block;
+  background-image: url('./Images/foodbackground.png');
+  color: white;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  border: 4px dashed;
+  border-color: rgb(250, 225, 229);
+  align-items: center;  
+}
+
+.map {
+  float: right;
+}
+#addressicons {
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  
+}
+.mainlocatoricon {
+  display: block;
+  text-align: center;
+}
+/* Last Page Container holding the image and the text */
+#lastpage-container {
+  background-image: url('./Images/whitesugar.jpg');
+  position: relative;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  color: darkslategray;
+}
+/* Subscription Button */
+.subscription-form {
+  display: inline-block;
+  background: transparent;
+  background-size: covercon;
+  background-repeat: no-repeat;
+  color: #fefefe;
+  font-family: 'Sacramento', cursive;
+  font-size: 42px;
+  color: darkslategray;
+  padding: 2rem;
+  border-radius: 0;
+}
+
+.subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}
+.subscription-text {
+  display: inline-flex;
+  text-align: left;
+}
+
+/* Bottom Page */
+#footer-section {
+  display: block;
+  background-color: rgb(250, 225, 229);
+  align-items: left;
+  justify-content: space-between;
+  text-align: center;
+}
+.bottom-logo {
+  display: block;
+  flex-wrap: wrap;
+}
+.bottom-icons {
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 50%;
+
+}
+#bottom-page {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 50%;  
+}
+.amalies-info {
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width:50%;
+  float: right;
+}
+.myaccount {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  float: right;
+}
+.locator-icon {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.mail-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  
+}
+.phone-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.instagramphotos {
+  display: inline-block;
+  flex-wrap: wrap;
+  float: right;
+}
+/* Media Queries */
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  #premiumquality {
+    display: none;
+
+}
+
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 26px */
+@media only screen and (max-width: 600px) {
+ .customertestimonial {
+    font-size: 26px;
+  }
+}
